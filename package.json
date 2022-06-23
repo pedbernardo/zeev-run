@@ -1,6 +1,6 @@
 {
   "name": "zeev-run",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "Non official Zeev CLI project tooling",
   "type": "module",
   "main": "lib/index.js",

@@ -1,5 +1,5 @@
 #!/usr/bin/env node
-import { startBuildCommand } from '../lib/index.js'
+import { startBuildCommand } from '../lib/index.mjs'
 import { Command } from 'commander'
 
 const ZeevBuild = new Command()

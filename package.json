@@ -2,17 +2,16 @@
   "name": "zeev-run",
   "version": "0.1.0",
   "description": "Non official Zeev CLI project tooling",
-  "type": "module",
-  "main": "lib/index.js",
+  "main": "lib/index.mjs",
   "bin": {
-    "zeev": "bin/cli.js"
+    "zeev": "bin/cli.mjs"
   },
   "directories": {
     "lib": "lib"
   },
   "scripts": {
-    "test:cli": "node bin/cli.js",
-    "test:cli-build": "cross-env NODE_ENV=production node bin/cli.js build"
+    "test:cli": "node bin/cli.mjs",
+    "test:cli-build": "cross-env NODE_ENV=production node bin/cli.mjs build"
   },
   "lint-staged": {
     "**/*.js": "npm run lint"

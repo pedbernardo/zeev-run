@@ -9,7 +9,7 @@ const ZeevCli = new Command()
 
 ZeevCli
   .version(pkg.version)
-  .description('Zeev CLI')
+  .description('Zeev Run, your Zeev CLI for faster projects')
   .option('-c, --config', 'specify the config file, defaults to zeev-config.js')
   .command('create', 'start a new project')
   .command('dev', 'starts a development server and watchers', { isDefault: true })

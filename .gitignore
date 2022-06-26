@@ -21,4 +21,10 @@ coverage
 node_modules/
 jspm_packages/
 
+# Avoid commit internal tests
+src
 dist
+zeev-config.mjs
+
+# Internal Todo's
+TODO*.md

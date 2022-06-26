@@ -10,7 +10,8 @@
     "lib": "lib"
   },
   "scripts": {
-    "test": "vitest",
+    "test": "vitest run",
+    "test:watch": "vitest",
     "test:cli": "node bin/cli.mjs",
     "test:cli-build": "cross-env NODE_ENV=production node bin/cli.mjs build",
     "coverage": "vitest run --coverage"

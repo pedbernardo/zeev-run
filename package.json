@@ -43,6 +43,7 @@
     "live-server": "^1.2.2",
     "livereload": "^0.9.3",
     "lodash": "^4.17.21",
+    "mssql": "^8.1.2",
     "posthtml": "^0.16.6",
     "posthtml-expressions": "^1.9.0",
     "posthtml-include": "^1.7.4",

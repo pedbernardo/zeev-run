@@ -27,7 +27,7 @@
 <br>
 
 ## Features
-- Local Server para assets (`.js` e `.css`)
+- Local Server para assets (`.js` e `.scss`)
 - Livereload e Watch Mode
 - Mock Server
 - Arquivos `.env` por ambiente (`prd`, `qa`, `dev`, `local`)
@@ -82,9 +82,9 @@ yarn dev
 Crie então um diretório chamado `src` na raíz do seu projeto e basta adicionar os arquivos `.js`, `.css` e `.html`. Utilize o padrão de nomes abaixo para os arquivos e nenhuma configuração adicional será necessária.
 
 **Padrões de Nome**
-- index{.js, .css, .html}
-- main{.js, .css, .html}
-- app{.js, .css, .html}
+- index{.js, .scss, .html}
+- main{.js, .scss, .html}
+- app{.js, .scss, .html}
 - script.js
 - style.scss
 - form.html

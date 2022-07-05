@@ -24,6 +24,7 @@ jspm_packages/
 # Avoid commit internal tests
 src
 dist
+config
 zeev-config.mjs
 
 # Internal Todo's

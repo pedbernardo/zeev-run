@@ -6,7 +6,6 @@
   >
   <p>Zeev Run</p>
 
-  [![CDN](https://data.jsdelivr.com/v1/package/gh/pedbernardo/zeev-run/badge)](https://www.jsdelivr.com/package/gh/pedbernardo/zeev-run)
   [![NPM](https://img.shields.io/npm/v/zeev-run)](https://www.npmjs.com/package/zeev-run)
   [![License](https://img.shields.io/badge/license-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 </h1>

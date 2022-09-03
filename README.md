@@ -97,7 +97,7 @@ Crie então um diretório chamado `src` na raíz do seu projeto e basta adiciona
 - zeev help
 
 #### Parâmetros
-- --config ou -c - caminho do arquivo de configuração (padrão: `./zeev-config.js`)
+- --config ou -c - caminho do arquivo de configuração (padrão: `./zeev.config.js`)
 
 <br>
 
@@ -106,7 +106,7 @@ Enquanto não temos documentação, use o Intelisense do seu editor (caso suport
 
 <br>
 
-**zeev-config.js**
+**zeev.config.js**
 ```js
 import { defineConfig } from 'zeev-run'
 

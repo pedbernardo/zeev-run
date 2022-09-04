@@ -1,6 +1,6 @@
 {
   "name": "zeev-run",
-  "version": "0.4.1",
+  "version": "0.5.0",
   "description": "Non official Zeev CLI project tooling",
   "main": "lib/index.mjs",
   "bin": {

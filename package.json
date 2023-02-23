@@ -4,7 +4,7 @@
   "description": "Non official Zeev CLI project tooling",
   "main": "lib/index.mjs",
   "bin": {
-    "zeev": "bin/cli.mjs"
+    "zeev": "bin/zeev.mjs"
   },
   "directories": {
     "lib": "lib"
@@ -12,8 +12,8 @@
   "scripts": {
     "test": "vitest run",
     "test:watch": "vitest",
-    "test:cli": "node bin/cli.mjs",
-    "test:cli-build": "cross-env NODE_ENV=production node bin/cli.mjs build",
+    "test:cli": "node bin/zeev.mjs",
+    "test:cli-build": "cross-env NODE_ENV=production node bin/zeev.mjs build",
     "coverage": "vitest run --coverage"
   },
   "lint-staged": {
